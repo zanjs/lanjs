@@ -1,4 +1,6 @@
-/*! lanjs v0.0.6 | (c) Fri Jun 03 2016 17:24:33 GMT+0800 (CST) zanjs | https://github.com/zanjs/lanjs */
+/*! lanjs v0.0.7 | (c) Fri Jun 03 2016 17:38:02 GMT+0800 (CST) zanjs | https://github.com/zanjs/lanjs */
+'use strict';
+
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
     define(function() {
@@ -11,7 +13,7 @@
   }
 })(this, function (root) {
 
-  'use strict';
+  
 
   var Lan = {};
 

@@ -5,7 +5,7 @@
 
   <img src="img/loading.gif" Lan="img/photo.jpg">
 
-  <script src="dist/Lan.js"></script>
+  <script src="dist/lan.js"></script>
   <script>
   Lan.init({
     offset: 100,

@@ -9,7 +9,7 @@ import clean        from 'gulp-clean';
 import rename       from 'gulp-rename';
 import pkg          from './package.json';
 import browserSync  from 'browser-sync';
-
+import babel        from 'gulp-babel';
 
 const  reload  = browserSync.create().reload;
 
@@ -35,6 +35,9 @@ const banner = [
 
 gulp.task('scripts', ['clean'], () => gulp.src(paths.scripts)
   .pipe(plumber())
+//   .pipe(babel({
+// 			presets: ['es2015']
+//    }))
   .pipe(header(banner, { pkg }))
   .pipe(gulp.dest('dist/'))
   .pipe(rename({ suffix: '.min' }))

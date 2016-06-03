@@ -13,7 +13,9 @@
     }
   });
 
-  // Lan.render(); is also available for non-scroll callbacks
+  // Lan.render(); 
+  // 也可用于非滚动回调
+  // is also available for non-scroll callbacks
   </script>
 </body>
 ```

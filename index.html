@@ -3,12 +3,52 @@
 <head>
     <meta charset="UTF-8">
     <title>Lanjs Demo</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        img{
+            max-width: 100%;
+            max-height: 100%;
+            display: block;
+            margin: 0 auto;
+        }
+        .app{
+            width: 960px;
+            
+        }
+        .imgbox{
+            min-height: 600px;
+            overflow: hidden;
+        }
+    </style>
     <script src="./dist/lan.min.js"></script>
 </head>
 <body>
                         
     <div class="app">
-        
+        <div class="imgbox">
+            <img src="./load.gif"  alt="" Lan="http://imglf2.nosdn.127.net/img/NDhvcW5jcE9yRHRGK2xPUHh1MFlHM1dvMlpRS2xIZmtWOFA5WkdndFlkWG1hL3dPTFBQV05BPT0.jpg">
+        </div>
+        <pre>
+            Lan.init({
+                callback: function (element, op) {
+                console.log(element, 'has been', op + 'ed')
+            }})
+        </pre>
+        <div class="imgbox">
+            <img src="./load.gif"  alt="" Lan="http://imglf1.nosdn.127.net/img/NDhvcW5jcE9yRHRGK2xPUHh1MFlHeU14UURvS25aWTlOQUhSakxSRjdXWUdETHYybTc3Y3pBPT0.jpg">
+        </div>
+        <div class="imgbox">
+            <img src="./load.gif"  alt="" Lan="http://imglf0.nosdn.127.net/img/NDhvcW5jcE9yRHRGK2xPUHh1MFlHMU00VGZxTUI0cEUxQ2ZUOURxejdqRWYzWlRpUldYT3NBPT0.jpg">
+        </div>
     </div>
 </body>
+<script>
+    Lan.init({
+        callback: function (element, op) {
+        console.log(element, 'has been', op + 'ed')
+    }})
+</script>
 </html>

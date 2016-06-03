@@ -1,4 +1,4 @@
-/*! lanjs v0.0.5 | (c) Fri Jun 03 2016 16:46:59 GMT+0800 (CST) zanjs | https://github.com/zanjs/lanjs */
+/*! lanjs v0.0.6 | (c) Fri Jun 03 2016 16:48:58 GMT+0800 (CST) zanjs | https://github.com/zanjs/lanjs */
 (function (root, factory) {
   if (typeof define === 'function' && define.amd) {
     define(function() {

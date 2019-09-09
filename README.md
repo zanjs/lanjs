@@ -1,5 +1,7 @@
 # Lanjs
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/zanjs/lanjs.svg)](https://greenkeeper.io/)
+
 ```html
 <body>
 

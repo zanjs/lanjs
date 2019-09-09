@@ -14,18 +14,18 @@
     "babel-preset-es2015": "^6.9.0",
     "babel-register": "^6.9.0",
     "browser-sync": "^2.12.10",
-    "gulp": "^3.9.1",
-    "gulp-babel": "^6.1.2",
-    "gulp-clean": "^0.3.2",
-    "gulp-header": "^1.8.2",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-header": "^2.0.9",
     "gulp-karma": "0.0.5",
     "gulp-plumber": "^1.1.0",
     "gulp-rename": "^1.2.2",
-    "gulp-uglify": "^1.5.3",
-    "karma": "^0.12.37",
-    "karma-jasmine": "^0.2.3",
-    "karma-phantomjs-launcher": "^0.1.4",
-    "karma-spec-reporter": "0.0.13"
+    "gulp-uglify": "^3.0.2",
+    "karma": "^4.3.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-phantomjs-launcher": "^1.0.4",
+    "karma-spec-reporter": "0.0.32"
   },
   "main": "src/lan.js"
 }
